@@ -73,11 +73,6 @@ def center_charge_ring(n):
     m = int((n-1)/2)
     c = 1/m
     
-    # Set up 2d plane
-    x = np.linspace(-2, 2, 101)
-    y = np.linspace(-2, 2, 101)
-    xm, ym = np.meshgrid(x, y)
-    
     # Initialize E field x,y components and individual point charges
     qn=[]
     
